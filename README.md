@@ -6,6 +6,10 @@ Two classes founded
   - Crawler() - to crawl all site by domain.
   - PagesDownloader() - to download pages.
 
+Requirements:
+  - pip install aiohttp
+  - pip install lxml
+
 ### Crawler example:
 ```
 # Custom page handler for each page.
